@@ -21,8 +21,7 @@
     margin-top: 10%;
     align-items: center;
     justify-content: center;
-    background: cover color #242533;
-
+    background:  #242533;
     box-shadow: 0 12px 24px 0 rgb(0 0 0 / 20%), 0 15px 40px 0 rgb(0 0 0 / 19%);
 }
 form {
@@ -88,6 +87,7 @@ form {
 .navbar img{
     width: 35%;
     margin-left: .5%;
+    position: relative;
 }
 .navbar{
     justify-content: center;
