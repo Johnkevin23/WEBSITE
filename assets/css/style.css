@@ -45,7 +45,7 @@ form {
     margin: 0 0 15px 50px;
     margin-left: 40px;
 }
-.box input[ type ="CodeNUmber"],.box input[ type ="CodeNumber"]{
+.box input[ id ="CodeNUmber"],.box input[ id ="CodeNumber"]{
     width: 170px;
     height: 50px;
     border: 0;
@@ -70,6 +70,11 @@ button [id ="button"],button[id ="button"]{
     border-radius: 25px;
     margin: 0 0 15px 50px;
     color: white;
+}
+button [id ="button"],button[id ="button"] a{
+    text-decoration: none;
+    color: white;
+    font-display: 24px;
 }
  button [id ="register-button"],button[id ="register-button"]{
     width: 330px;

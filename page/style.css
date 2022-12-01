@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100px;
+    background: #221c14;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(165, 168, 178, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 5px;
+}   
+   
