@@ -1,9 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    height: 100px;
+.navigation-section {
+    height: 90px;
     background: #221c14;
     overflow: hidden;
     border-bottom: 1px solid rgba(165, 168, 178, 0.2);
@@ -11,6 +7,56 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
-    margin-top: 5px;
-}   
-   
+}
+body{
+    height: 90px;
+    background: #221c14;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(165, 168, 178, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.navigation-section #brand-area {
+    padding: 0px 45px;
+}
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+#top-menu-options {
+    height: 100%;
+    width: 70%;
+    position: relative;
+
+}
+
+
+#top-menu-options .section-content {
+    display: block;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#top-menu-options .section-content .section-title {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+#top-menu-options .section-content .section-title label {
+    margin: 0;
+    padding: 0px 10px;
+    font-weight: 300;
+    font-size: 12px
+}
